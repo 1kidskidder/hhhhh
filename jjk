@@ -1,0 +1,25 @@
+local library = loadstring(game:HttpGet('https://raw.githubusercontent.com/cueshut/saves/main/criminality%20paste%20ui%20library'))()
+
+-- // Window \\ --
+local window = library.new('WavepointXv2', 'leadmarker')
+
+-- // Tabs \\ --
+local tab = window.new_tab('rbxassetid://4483345998')
+local tab1 = window.new_tab('rbxassetid://4483345998')
+
+-- // Sections \\ --
+local section = tab.new_section('Bruh XD')
+local section1 = tab.new_section(':DDD HI')
+
+-- // Sector \\ --
+local sector = section.new_sector('V+A', 'Left')
+local sector1 = section.new_sector('Coming soon', 'Right')
+
+-- // Elements \\ -- (Type, Name, State, Callback)
+local button = sector.element('Button', 'Radar', nil, function()https://raw.githubusercontent.com/1kidskidder/WAYPOINTV2/main/scripts
+
+end)
+
+local button = sector.element('Button', 'Arrows-V', nil, function()loadstring(game:HttpGet("https://raw.githubusercontent.com/Eazvy/UILibs/main/ESP/Arrows/Example",true))()
+
+end)
